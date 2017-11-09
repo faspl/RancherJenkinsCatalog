@@ -4,5 +4,3 @@ jenkins:
     restart: always
     ports:
       - 8081:8080
-    volumes:
-      - ./FOR_JENKINS:/var/jenkins_home
