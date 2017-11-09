@@ -1,0 +1,4 @@
+name: Jenkins
+description: |
+  Jenkins CI server (LTS) by Rakesh
+category: Continuous Integration
