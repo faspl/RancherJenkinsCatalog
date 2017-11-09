@@ -1,5 +1,5 @@
 .catalog:
   name: "Jenkins"
-  version: "1"
+  version: "1.560"
   description: "Jenkins Docker by Rakesh"
   minimum_rancher_version: v0.56.0
