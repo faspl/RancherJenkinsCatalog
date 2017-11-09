@@ -3,5 +3,4 @@
   version: "1.0.2-2016-09-07-GA"
   description: "Jenkins Docker by Rakesh"
   minimum_rancher_version: v0.56.0
-  author: rakesh635@gmail.com <Rakesh Kumar>
 default: ""
