@@ -3,3 +3,10 @@
   version: "1.560"
   description: "Jenkins Docker by Rakesh"
   minimum_rancher_version: v0.56.0
+  questions:
+  - variable: "PORT"
+    type: "int"
+    label: "Port Number"
+    description: "Which port should Jenkins listen on?"
+    default: 8080
+    required: true
