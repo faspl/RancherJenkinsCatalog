@@ -3,4 +3,4 @@ jenkins:
     container_name: jenkins
     restart: always
     ports:
-- 8081:8080
+        - "${PORT}:8080"
