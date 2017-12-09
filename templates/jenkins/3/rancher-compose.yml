@@ -1,6 +1,6 @@
 .catalog:
   name: "Jenkins"
-  version: "2.60"
+  version: "2.60.3"
   description: "Jenkins Docker with pipeline settings by Rakesh"
   minimum_rancher_version: v0.56.0
   questions:
