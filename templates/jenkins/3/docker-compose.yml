@@ -6,4 +6,3 @@ jenkins:
         - "${PORT}:8080"
     environment:
         - PLUGINS=${plugins}
-    command: startup.sh
