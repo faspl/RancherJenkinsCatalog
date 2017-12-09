@@ -4,4 +4,4 @@ jenkins:
     restart: always
     ports:
         - "${PORT}:8080"
-    command: bash -c "if [$(plugins)]; then cp ${plugins} /usr/share/jenkins/ref/plugins.txt; fi; && /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt"
+    command: bash -c "/usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt"
