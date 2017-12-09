@@ -4,5 +4,5 @@ jenkins:
     restart: always
     ports:
         - "${PORT}:8080"
-     environment:
-        PLUGINS: "${plugins}"
+    environment:
+        - PLUGINS=${plugins}
