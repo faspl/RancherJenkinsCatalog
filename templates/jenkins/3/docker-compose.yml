@@ -4,4 +4,5 @@ jenkins:
     restart: always
     ports:
         - "${PORT}:8080"
-    command: "echo $(plugins} >> /usr/share/jenkins/ref/plugins.txt"
+     environment:
+        PLUGINS: "${plugins}"
