@@ -4,5 +4,8 @@ jenkins:
     restart: always
     ports:
         - "${PORT}:8080"
+    environment:
+        - PLUGINS=${PLUGINS}
     labels:
-        test.multiline: ${PLUGINS}
+        test.plugins: ${PLUGINS}
+    command: bash -c "startup.sh"
