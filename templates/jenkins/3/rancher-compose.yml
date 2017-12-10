@@ -14,4 +14,6 @@
     type: "multiline"
     label: "List of Plugins"
     description: |
-      List of plugins in the format <plugin_name>[:<version>] one entry per line.
+      List of plugins in the format <plugin_name>[:<version>] 
+      one entry per line.
+    default: ""
